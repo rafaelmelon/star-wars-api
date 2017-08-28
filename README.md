@@ -15,7 +15,7 @@ Para configurar los procesos internos de la apliación y para el despliegue del 
 
 ### Intrucciones
 
-De todos modos, queremos que puedas echar un ojo a lo que vendrá después si pasas la primera parte de la prueba.
+Para el uso correcto de la aplicación existe una breve descripción:
 
 - **Primer paso:** *Respositorio e inicio*. Una vez descargas el repositorio actualida con *npm install* node_modules e inicia la aplicación con *npm start*
 
