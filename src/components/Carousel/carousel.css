@@ -1,3 +1,14 @@
 .root {
+  margin-bottom: 40px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+  z-index: 1;
+  position: relative;
+}
+.root .customSlider {
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #9785c3;
+  color: #fafafa;
+  padding: 60px 0;
   text-align: center;
 }

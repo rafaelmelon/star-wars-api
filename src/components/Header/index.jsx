@@ -1,11 +1,13 @@
-import React from 'react';
+import React from 'react'
 
-function Header () {
+import styles from './header.css'
+
+const Header = () => {
   return (
-    <header>
-      <h1 >Header</h1>
-    </header>
+    <div className={ styles.root }>
+      <h1>Star Wars App</h1>
+    </div>
   )
 }
 
-export default Header;
+export default Header
