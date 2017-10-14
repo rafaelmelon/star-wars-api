@@ -1,13 +1,17 @@
 {
-  "name": "star-wars-app",
+  "name": "star-wars-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Loading a star wars API",
   "main": "index.js",
+  "author": "Rafael Melón",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rafaelmelon/star-wars-api.git"
+  },
   "scripts": {
     "start": "webpack-dev-server"
   },
-  "author": "Rafael Melón",
-  "license": "MIT",
   "dependencies": {
     "axios": "^0.16.2",
     "css-loader": "^0.28.5",
@@ -21,5 +25,12 @@
     "style-loader": "^0.18.2",
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1"
   }
 }
